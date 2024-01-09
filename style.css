@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans", "sans-serif", "segoe ui";
+    background: #c913b1;
+    font-size: 13px;
+}
+
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+}
+
+.table-wrapper{
+    margin: 50px 0;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.table-header,
+.table-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.table-title{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.table-header input{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    outline: none;
+    padding: 7px 5px;
+    transition: all .25s ease;
+}
+
+.table-header input:focus{
+    border-color: #c913b1;
+}
+
+
+.table-body{
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.date{ text-align: right;}
+
+table th,
+table td{
+    padding: 20px;
+}
+
+
+table thead{
+    background-color: #f0efef;
+    padding: 10px; 
+    font-size: 13px;
+}
+
+table tbody tr{
+    border-bottom: 1px solid lightgray;
+}
+
+
+table tbody tr:nth-child(even){
+    background-color: #f0efef;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
